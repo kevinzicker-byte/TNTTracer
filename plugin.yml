@@ -1,0 +1,11 @@
+name: TNTTracer
+version: 1.0
+main: dev.tnttracer.TNTTracer
+api-version: "1.21"
+commands:
+  tnttracer:
+    usage: /tnttracer [on|off|toggle]
+    description: Toggle TNT/sand tracer
+permissions:
+  cannon.tracer:
+    default: op
