@@ -38,7 +38,7 @@ public class TNTTracer extends JavaPlugin {
 
     // 1.8-safe particles
     private final Particle tntParticle = Particle.FLAME;
-    private final Particle fallingParticle = Particle.REDSTONE;
+    private final Particle fallingParticle = Particle.CRIT;
 
     @Override
     public void onEnable() {
